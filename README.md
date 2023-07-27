@@ -17,6 +17,7 @@ o	What are the characteristics of customers who are most likely to convert, and 
 The insights developed in this case study have the potential to be highly valuable for the bank, as they can inform more effective marketing strategies and ultimately lead to increased sales of term deposits. Moreover, the techniques used in this case study are applicable to other marketing contexts beyond banking, making the findings relevant to a wider range of industries. Overall, this case study demonstrates the power of data analysis and machine learning techniques to drive business value and improve marketing outcomes.
 
 
+
 2.	Business Problem:
 
 •	Target Audience: 
@@ -30,6 +31,7 @@ The bank's sales goal is to increase the number of term deposits it sells, with 
 
 •	Challenges: 
 There are several challenges that the bank faces in achieving its sales goals. For example, there is a high degree of competition in the banking industry, and customers are bombarded with marketing messages from multiple banks and financial institutions. Moreover, customers have different preferences and needs, and may be more or less receptive to different types of marketing messages. To overcome these challenges, the bank needs to develop a deep understanding of its customers and tailor its marketing efforts accordingly. This requires a data-driven approach that uses advanced analytics techniques to identify the key drivers of term deposit subscriptions, as well as the characteristics of customers who are most likely to convert. By doing so, the bank can develop more effective marketing strategies that increase conversions and generate higher revenue.
+
 
 
 3.	Data Description:
@@ -50,28 +52,44 @@ o	Target variable: y
 
 Details of Variables:
 o	“age”: the age of the customer (numeric)
+
 o	“job”: the type of job the customer has (categorical: 'admin.', 'blue-collar', 'entrepreneur', 'housemaid', 'management', 'retired', 'self-employed', 'services', 'student', 'technician', 'unemployed', 'unknown')
+
 o	“marital”: the marital status of the customer (categorical: 'divorced', 'married', 'single', 'unknown')
+
 o	“education”: the level of education of the customer (categorical: 'basic.4y', 'basic.6y', 'basic.9y', 'high.school', 'illiterate', 'professional.course', 'university.degree', 'unknown')
+
 o	“default”: whether the customer has credit in default (categorical: 'no', 'yes', 'unknown')
+
 o	“housing”: whether the customer has a housing loan (categorical: 'no', 'yes', 'unknown')
+
 o	“loan”: whether the customer has a personal loan (categorical: 'no', 'yes', 'unknown')
+
 o	“contact”: the contact communication type (categorical: 'cellular', 'telephone')
+
 o	“month”: the month of the year when the customer was last contacted (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
-o	“day_of_week”: last contact day of the week (categorical:
-'mon', 'tue', 'wed', 'thu', 'fri')
+
+o	“day_of_week”: last contact day of the week (categorical:'mon', 'tue', 'wed', 'thu', 'fri')
+
 o	“duration”: the duration of the last contact in seconds (numeric)
+
 o	“campaign”: the number of contacts performed during this campaign and for this customer (numeric)
+
 o	“pdays”: the number of days that passed by after the customer was last contacted from a previous campaign (numeric, -1 means the customer was not previously contacted)
 o	“previous”: the number of contacts performed before this campaign and for this customer (numeric)
+
 o	“poutcome”: the outcome of the previous marketing campaign (categorical: 'failure', 'nonexistent', 'success')
-o	“emp.var.rate”: employment variation rate - quarterly indicator
-(numeric)
+
+o	“emp.var.rate”: employment variation rate - quarterly indicator (numeric)
+
 o	“cons.price.idx”: consumer price index - monthly indicator (numeric)
-o	“cons.conf.idx”: consumer confidence index - monthly indicator
-(numeric)
+
+o	“cons.conf.idx”: consumer confidence index - monthly indicator (numeric)
+
 o	“euribor3m”: euribor 3 months rate - daily indicator (numeric)
+
 o	“nr.employed”: number of employees - quarterly indicator (numeric)
+
 o	“y”: whether the customer subscribed to a term deposit (binary: 'yes', 'no')
 
 
