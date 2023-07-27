@@ -133,7 +133,7 @@ with interface:
 
     st.header(body='Project Description') #Caption
 
-    st.markdown(body=f"""This is a machine learning project ...""")
+    st.markdown(body=f"""This Supervised classification machine learning model goal is to find out whether the customer will subscribe to a term deposit or not.""")
 
     st.subheader(body='Input Features')
 
